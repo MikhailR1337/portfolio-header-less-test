@@ -1,0 +1,29 @@
+// compress: true;
+
+@import "vars";
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 1rem;
+    color: @black;
+    background-color: #fff;
+}
+
+/* Blocks */
+
+@import "blocks/intro";
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/user";
+@import "blocks/nav";
